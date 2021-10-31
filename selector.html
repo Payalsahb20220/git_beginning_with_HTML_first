@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness with payal</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS reset */
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/jpg.jpg') center center fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92%;
+        overflow-y: hidden;
+
+        
+    }
+    .left{
+        position: absolute;
+        left: 50px;
+        top: 20px;
+        display: inline block;
+        border: none;
+    }
+    .left img{
+        width: 100px;
+        
+    }
+    .left div{
+        text-align: center;
+        text-justify: auto;
+        text-decoration-color: rgb(0, 0, 0);
+        
+    
+        
+    }
+    .mid{
+        display:block ;
+        width: 33%;
+        margin: 12px auto;
+        border: none;
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        border: none;
+    }
+    .navbar{
+        display: inline-block;
+        font-size: 22px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: aqua;
+        color: darkolivegreen;
+    }
+    .btn{
+        margin: 0px 10px;
+        background-color: darkblue;
+        color: blanchedalmond;
+        padding: 4px 12px;
+        border: none;
+        border-radius: 8px;
+        font-size: 15px;
+        cursor: pointer;
+
+
+    }
+    .btn:hover{
+        background-color:white ;
+    }
+    .container{
+        border: none;
+        margin: 100px 60px;
+        padding: 70px;
+        width: 33%;
+        border-radius: 20px;
+    }
+    .form group input{
+        text-align: center;
+        margin:3px auto ;
+        display: block;
+        width: 34px;
+        padding: 6px;
+        border: none;
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/png.png" alt="">   
+            <div>payal fitness mantraa</div>       
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">fitness mantraa</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+                
+
+        </div>
+        <!-- right box for search -->
+        <div class="right">
+        <button class="btn">Call us now</button>
+        <button class="btn">email us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>join the best fitness club in india</h1>
+        <form action="no action.php"></form>
+        <div class="form group">
+            <input type="text" name="" placeholder="enter your name">
+        </div>
+        <div class="form group">
+            <input type="text" name="" placeholder="enter your pnone no./email id">
+        </div>
+        <div class="form group">
+            <input type="text" name="" placeholder="enter your fitness detail">
+        </div>
+        <div class="form group">
+            <input type="text" name="" placeholder="enter your account no">
+        </div>
+        <button class="btn">submit</button>
+    </div>
+</body>
+</html>

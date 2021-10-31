@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before and after pseudo selectort</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+        .navigation{
+            font-size: 20px;
+            display: flex;
+        }
+        li{
+            list-style: none;
+            padding: 50px 50px;
+        }
+        
+    section{
+        height: 300px;
+        border: 2px solid goldenrod;
+        margin: 2px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    section::before{
+        content: "This is coding class for programmer";
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+        
+        
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navigation">
+            <li class="item">Home</li>
+            <li class="item">About Us</li>
+            <li class="item">services</li>
+            <li class="item">Contact us</li>
+
+        </ul>
+
+    </nav>
+    <section>
+        <h1>Welcome to Coding World</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim repudiandae architecto ab dolorum ipsa esse eligendi reiciendis laboriosam, natus dicta veniam commodi. Praesentium corrupti vero optio et veritatis minus? Eum ad quo consectetur saepe!</p>
+    </section>
+    
+</body>
+</html>
